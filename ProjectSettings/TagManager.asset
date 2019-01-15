@@ -1,0 +1,61 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!78 &1
+TagManager:
+  serializedVersion: 2
+  tags:
+  - PlayerKiller
+  - Platform
+  - Block
+  layers:
+  - Default
+  - TransparentFX
+  - Ignore Raycast
+  - 
+  - Water
+  - UI
+  - 
+  - 
+  - StageObject
+  - EffectOfPlayerDeath
+  - Stage_BackGround
+  - StageObject_Block
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  - 
+  m_SortingLayers:
+  - name: Stage_Background
+    uniqueID: 2190990145
+    locked: 0
+  - name: Stage_Object_Back
+    uniqueID: 859037631
+    locked: 0
+  - name: Default
+    uniqueID: 0
+    locked: 0
+  - name: Stage_Object
+    uniqueID: 1006849163
+    locked: 0
+  - name: Stage_Object_Front
+    uniqueID: 85131753
+    locked: 0
+  - name: Stage_Front
+    uniqueID: 2288307533
+    locked: 0

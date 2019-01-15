@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: 5f2a4a81619a9664a98dcc1992f13c1c
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontName: 851H-kktt
+  fontNames:
+  - "\u30C6\u30AC\u30AD\u30AB\u30AF\u30C3\u30C8"
+  fallbackFontReferences: []
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
