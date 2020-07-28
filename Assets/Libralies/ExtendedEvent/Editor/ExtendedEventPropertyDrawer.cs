@@ -357,7 +357,7 @@ public class ExtendedEventPropertyDrawer : PropertyDrawer {
         }
     }
     private static int DropdownList( Rect position, int current, GUIContent[] items ) {
-        int controlID = GUIUtility.GetControlID( dropdownHash, FocusType.Native, position );
+        int controlID = GUIUtility.GetControlID( dropdownHash, FocusType.Passive, position );
         var mask = DropdownCallbackInfo.GetSelectedValueForControl( controlID, current );
 
         var evt = Event.current;
