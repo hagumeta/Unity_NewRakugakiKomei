@@ -83,4 +83,17 @@ public class GameManager : MonoBehaviour {
         StageNumber = stageNumber;   
         SceneTransitionManager.GotoScene(Scene.Stage);
     }
+
+
+    /// <summary>
+    /// ゲームを終了する
+    /// </summary>
+    public static void ExitGame()
+    {
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#elif UNITY_STANDALONE
+      UnityEngine.Application.Quit();
+#endif
+    }
 }

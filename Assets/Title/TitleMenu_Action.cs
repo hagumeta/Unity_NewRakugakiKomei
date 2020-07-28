@@ -1,24 +1,16 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.UI;
 
 public class TitleMenu_Action : MonoBehaviour {
 
+    public Button FirstButton;
 
-
-    public void OnClick_BeginGame()
+    private void Start()
     {
-        GameManager.GotoTitle();
+        this.FirstButton.Select();    
     }
 
-    public void OnClick_ContinueGame()
-    {
-
-    }
-
-    public void OnClick_OpenConfiguration()
-    {
-
-    }
 
 }
